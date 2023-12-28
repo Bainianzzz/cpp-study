@@ -16,3 +16,24 @@ int main(){
     return 0;
 }
 ```
+
+## 一些复习方向
+### 笔试
+- 内存图（栈、堆、全局数据区）
+- 运算顺序图
+- 流程图
+- 分析代码
+- 找错（语法、逻辑）
+- 调试（局部变量，监视，查看堆区内存）
+
+### 上机
+- 熟悉课本案例，理解各章知识要点（通过目录梳理）
+- 多读多写，形成自己的style（易读，简洁）
+
+### Quote from The Zen of Python
+- *Simple is better than complex.*
+- *Flat is better than nested.*
+- *Sparse is better than dense.*
+- *Readability counts.*
+- *Now is better than never.*
+- *If the implementation is easy to explain, it may be a good idea.*
