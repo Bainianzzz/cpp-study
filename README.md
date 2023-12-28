@@ -30,7 +30,7 @@ int main(){
 - 熟悉课本案例，理解各章知识要点（通过目录梳理）
 - 多读多写，形成自己的style（易读，简洁）
 
-### Quote from The Zen of Python
+### Quotes from The Zen of Python
 - *Simple is better than complex.*
 - *Flat is better than nested.*
 - *Sparse is better than dense.*
