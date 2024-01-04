@@ -2,15 +2,18 @@
 using namespace std;
 
 int isPrime(int n);
-void checkOutPrime(int a, int b);
+void checkOutPrime(int min, int max);
 
 int main(){
-	int a = 0, b = 0;
-	cout << "a=";
-	cin >> a;
-	cout << "b=";
-	cin >> b;
-	checkOutPrime(a, b);
+	int min = 1, max = 0;
+	while(min>max){
+		cout << "min=";
+		cin >> min;
+		cout << "max=";
+		cin >> max;
+	}
+	
+	checkOutPrime(min, max);
 
 	system("pause");
 	return 0;
@@ -32,9 +35,9 @@ int isPrime(int n){
 	return sta;
 }
 
-void checkOutPrime(int a, int b){
+void checkOutPrime(int min, int max){
 	int i = 0;
-	for (i = a; i <= b; i++){
+	for (i = min; i <= max; i++){
 		if (isPrime(i)){
 			cout << i<<endl;
 		}
