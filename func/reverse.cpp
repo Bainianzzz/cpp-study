@@ -32,7 +32,6 @@ void myReverse1(int num){
 }
 
 // 解法2：从最高位取得每位的数字，储存到一个新的从个位开始的整形中
-// 小注：这段代码不能解决有0的情况
 int myReverse2(int num){
     int newNum=0;
     int a=1e+9,b=1;
