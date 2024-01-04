@@ -6,7 +6,7 @@ int myReverse2(int num);
 void myReverse3(char num[10]);
 
 int main(){
-    // 在这个例子中，不能把15、16行代码放到cin.get前面，22、23行同样，解释在最后
+    // 在这个例子中，不能把14、15、16行代码放到cin.get前面，22、23行同样，解释在最后
     char num1[10]={};
     cin.get(num1,10);
     myReverse3(num1);
