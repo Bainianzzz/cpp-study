@@ -1,5 +1,6 @@
 #include<iostream>
 #include<stdlib.h>
+#include <cstring>
 using namespace std;
 
 void print(int *a, int size);
