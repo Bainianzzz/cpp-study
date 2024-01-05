@@ -12,13 +12,17 @@ int main(){
     cout<<setw(8)<<hex<<i<<","<<endl;
     cout<<setw(4)<<dec<<i<<","<<endl;
 
-    // setprecision()设置输出精度，仅对double有效
+    // setprecision()设置输出精度（整数+小数部分的位数），仅对浮点数有效
+    // fixed固定输出小数点后输出位数
     cout<<a<<", "<<setprecision(3)<<a<<endl;
+    float pi=3.1415926;
+    cout<<setprecision(3)<<pi<<endl;
+    cout<<fixed<<setprecision(3)<<pi<<endl;
 
-    // scientific以科学计数法输出，仅对double有效
+    // scientific以科学计数法输出，仅对浮点数有效
     cout<<scientific<<b<<endl;
 
-    // 一些科学计数法的表示方法，仅对double有效
+    // 一些科学计数法的表示方法，仅对浮点数有效
     if (c==0.00001){
         cout<<"c==1e-5"<<endl;
     }
