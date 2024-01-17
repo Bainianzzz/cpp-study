@@ -11,8 +11,7 @@ using namespace std;
 void strCopy(char dest[], char source[]) {
     int i=0;
     while (dest[i] = source[i]){
-        dest++;
-        source++;
+        i++;
     }
 }
 
